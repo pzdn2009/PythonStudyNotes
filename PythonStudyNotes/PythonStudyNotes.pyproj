@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>12345699-5c70-4d21-8eb0-37da836574c0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonStudyNotes.py</StartupFile>
+    <StartupFile>note05.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonStudyNotes.py" />
+    <Compile Include="mutil_inherit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="note01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="note02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="note03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="note04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="note05.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
